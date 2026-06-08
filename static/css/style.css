@@ -411,9 +411,12 @@ h1,h2,h3,h4{
     width:100%;
     height: auto;
     display: block; 
+    transition: transform 0.3s ease;
 }
 
-
+.t-img:hover img{
+    transform: scale(1.02);
+}
 
 /* Purple Section */
 .purple-section{
